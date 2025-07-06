@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(16, 242, 16);
+}
+header div{
+background-color: rgb(246, 204, 87);
+font-size: 1rem;
+text-transform: uppercase;
+margin: 0;
+padding: 0;
+align-items: center;
+justify-content: center;
+height: 4rem;
+display: flex;
+box-shadow: 0 0 1rem rgb(155, 7, 196);
+}
+
+header div a{
+    text-decoration: none;
+    margin: 1rem;
+}
+header div a:hover{
+    background-color: blueviolet;
+    color: aliceblue;
+    padding: 0.2rem;
+    border-radius: 10%;
+    transition: background-color 0.5s ease;
+}
+header h1{
+    text-transform: uppercase;
+    text-align: center;
+} 
+.fake{
+    background-color: aqua;
+    color: rgb(27, 27, 27);
+    width: 5rem;
+    text-align: center;
+    height: 1rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    border-radius: 50%;
+    margin-top: -1rem;
+}
+header ul p {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+header ul strong{
+    text-transform: uppercase;
+    font-size: 0.8rem;
+}
+ul {
+    padding-left: 2rem;
+    padding-right: 3rem;
+}

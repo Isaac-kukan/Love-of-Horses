@@ -1,0 +1,27 @@
+/* The phone size*/
+@media(max-width:600px){
+     body{
+        background: 
+        linear-gradient(#80ffdb, #64dfdf, #48bfe3, #5390d9, #5e60ce);
+        background-repeat: no-repeat;
+    }
+    div {
+        font-size: 0.7rem;
+        display: flex;
+    }
+    div a{
+        width: 4rem;
+        height: 0.5rem;
+        text-align: center;
+        padding-right: 1.3rem;
+        padding-bottom: 1rem;
+        padding-left: 1.3rem;
+    }
+    h1{
+        font-size: 1.2rem;
+    }
+    p{
+        font-size: 1rem;
+    }
+}
+

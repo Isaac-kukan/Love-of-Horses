@@ -1,0 +1,35 @@
+body{
+   background: repeating-radial-gradient(red, red 50px, red 10px, rgb(99, 99, 231) 30px, red 120px,red 150px,blue 200px, rgba(254, 9, 9, 0.514));
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-family: 'Times New Roman', Times, sans-serif;
+}
+div{
+display: flex;
+flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+div a{
+    margin: 1rem;
+    padding: 0.9rem;
+    width: 7rem;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: aqua;
+    border-radius: 50%;
+    
+}
+div a:hover{
+    color: blue;
+    background-color: pink;
+    transition: background-color 0.5s color 0.5s;
+}
+h1{
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+p{
+    font-size: 1.3rem;
+}

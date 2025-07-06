@@ -1,0 +1,262 @@
+/* Global Styles */
+body {
+    font-family: 'Times New Roman', Times, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header Styles */
+header {
+    background-image: url('images/horse-group.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 35rem;
+    width: 100%;
+    padding: 0rem;
+}
+
+nav p {
+    font-size: 2rem;
+    margin: 1.2rem;
+    padding-top: 1rem 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 0.1rem 0.1rem 0.1rem white;
+}
+
+/* Top Navigation Links */
+header div a {
+    background-color: aquamarine;
+    padding: 0.7rem;
+    margin: 0.9rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 0.9rem;
+    font-size: 0.8rem;
+    text-decoration: none;
+    color: black;
+}
+
+header div a:hover {
+    background-color: blue;
+    color: white;
+    transition: background 0.6s;
+}
+
+header h1 {
+    color: black;
+    margin-top: auto;
+    text-shadow: 0.1rem 0.1rem 0.3rem blue;
+    font-size: 2.5rem;
+}
+
+/* Intro Paragraph */
+main > div p {
+    font-size: 2rem;
+    text-align: center;
+    background-color: rgb(57, 234, 69);
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 1.2rem 0;
+    text-shadow: 0.1rem 0.1rem 0.3rem rgb(186, 9, 9);
+}
+
+/* Section Layout */
+section {
+    display: flex;
+    flex-direction: row;
+    background-color: aqua;
+    padding-top: 1rem;
+    margin: 0;
+    border-radius: 5%;
+    box-shadow: 0.4rem 0.4rem 0.6rem 0.7rem rgb(111, 29, 233);
+   
+
+}
+
+/* Arabian Horse */
+.arabian-horse{
+    margin-left: 2rem;
+}
+.arabian-horse img{
+    border-radius: 5%;
+    box-shadow: 0.1rem 0.1rem 0.2rem 0.4rem rgb(15, 221, 94);
+}
+.arabian-horse figcaption {
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+    border-radius: 5%;
+    margin-top: 1rem;
+    padding: 1rem;
+    text-align: center;
+    width: 22.5rem;
+    height: 7.5rem;
+    box-shadow: 0.1rem 0.1rem 0.2rem 0.4rem rgb(242, 214, 37);
+}
+
+.arabian-horse h3 {
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    color: blue;
+    margin-top: 0;
+}
+
+.arabian-horse p {
+    font-size: 1rem;
+    text-transform: uppercase;
+    line-height: 1.3rem;
+    margin: 0.5rem 0;
+}
+
+.arabian-horse a {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: rgb(238, 135, 135);
+    padding: 0.4rem 1rem;
+    margin: 0.5rem auto;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.arabian-horse a:hover {
+    color: azure;
+    background-color: blue;
+    transition: background 0.9s, color 0.9s;
+}
+
+/* Akhal Horse */
+.akhal {
+    margin-top: 1rem;
+    padding: 0;
+    margin-left: 0rem;
+}
+.akhal img{
+    height: 22rem;
+    width: auto;
+    box-shadow: 0.1rem 0.1rem 0.2rem 0.4rem rgb(15, 221, 94);
+     border-radius: 5%;
+   
+}
+.akhal h3 {
+    color: blue;
+    margin-top: 0;
+    text-transform: uppercase;
+}
+.akhal figcaption{
+    background-color: antiquewhite;
+    margin-top: 1rem;
+    text-align: center;
+    box-shadow: 0.1rem 0.1rem 0.2rem 0.4rem rgb(242, 214, 37);
+    border-radius: 5%;
+    height: 16rem;
+}
+
+.akhal p {
+    font-size: 1rem;
+    line-height: 1.6rem;
+    padding-top: -2rem;
+    margin-top: 1rem;
+
+    text-transform: uppercase;
+}
+
+.akhal a {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: rgb(238, 135, 135);
+    padding: 0.4rem 1rem;
+    margin-top: -4rem;
+    border-radius: 50%;
+}
+
+.akhal a:hover {
+    color: azure;
+    background-color: blue;
+    transition: background 0.9s, color 0.9s;
+}
+
+/* Mustang Horse */
+.mustang{
+    margin-left: 0;
+
+}
+.mustang-fig {
+    background-color: antiquewhite;
+    border-radius: 8%;
+    padding: 1rem;
+    width: 100%;
+    max-width: 23rem;
+    text-align: center;
+}
+.mustang img{
+    width: auto;
+    height: 16rem;
+    box-shadow: 0.1rem 0.1rem 0.2rem 0.4rem rgb(15, 221, 94);
+    border-radius: 5%;
+}
+.mustang figcaption{
+    background-color: antiquewhite;
+    width: 24rem;
+    height: 10.5rem;
+     box-shadow: 0.1rem 0.1rem 0.2rem 0.4rem rgb(242, 214, 37);
+    border-radius: 5%;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 1rem;
+}
+
+.mustang figcaption h3 {
+    text-transform: uppercase;
+    color: blue;
+    padding-top: 1rem;
+    
+}
+
+.mustang figcaption p {
+    text-transform: uppercase;
+    line-height: 1.5rem;
+    margin-top: -0.5rem;
+}
+
+.mustang figcaption a {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: rgb(238, 135, 135);
+    padding: 0.4rem 1rem;
+    margin-top: 0.5rem;
+    border-radius: 50%;
+}
+
+.mustang figcaption a:hover {
+    color: azure;
+    background-color: blue;
+    transition: background 0.6s, color 0.6s;
+}
+
+/* Footer */
+footer {
+    background-color: rgb(200, 160, 236);
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    
+    color: white;
+    font-size: 1.5rem;
+    height: 3rem;
+    padding-top: 0rem;
+    padding-left: 25rem;
+    margin-top: 1rem;
+}
+

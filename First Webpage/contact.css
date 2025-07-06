@@ -1,0 +1,89 @@
+body{
+     background: linear-gradient(in lch,red, blue);
+       background-repeat: no-repeat;
+       background-size: cover;
+       margin-bottom: 0;
+       height: 100vh;
+    font-family: Georgia, 'Times New Roman', Times, sans-serif;
+}
+header div{
+    background-color: yellow;
+    border-radius: 5vh;
+    height: 20rem;
+    width: 10rem;
+    margin-left: 2rem;
+    margin-top: -1rem;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    animation: moveRight 3s forwards;
+    box-shadow: 0 0 2rem rgb(238, 16, 16);
+}
+@keyframes moveRight {
+    from {
+        left: 0;
+    }
+    to{
+        left: 1000px;
+    }
+}
+header div a{
+    text-decoration: none;
+    padding: 1rem;
+}
+header div a:hover{
+    background-color: rgb(227, 133, 11);
+    color: blue;
+    border-radius: 10rem;
+}
+header h1{
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(52, 222, 92);
+    color: rgb(13, 24, 234);
+    width: 15rem;
+    height: 5rem;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    position: relative;
+    animation: moveUp 3s forwards;
+    margin-top: 2rem;
+}
+@keyframes moveUp {
+    from {
+        top: 1000px;
+    }
+    to{
+        top: 0;
+    }
+}
+nav{
+    margin-top: 6rem;
+    background-color: black;
+    color: aliceblue;
+    height: 7rem;
+    width: 13rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20%;
+    position: absolute;
+    transform: translate(0, 0);
+    animation: moveToCenter 3s ease forwards;
+}
+@keyframes moveToCenter {
+      from {
+       transform: translate(0,0);
+    }
+        to{
+            transform: translate(50vw, -50vh) translate(-50%, -50%)
+        }
+    }
